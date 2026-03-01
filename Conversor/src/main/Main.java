@@ -1,4 +1,4 @@
-package Main;
+package main;
 
 import produtos.Produto;
 import produtos.SaveThatInformation;
