@@ -1,18 +1,18 @@
 package main;
 
-import produtos.Produto;
-import produtos.SaveThatInformation;
-import contas.Calculos;
+import java.informacoes.produtos.Produto;
+import java.informacoes.produtos.SaveThatInformation;
+import java.informacoes.contas.Calculos;
 
 public class Main {
     public static void main(String[] args) {
 
-        // Criando produtos
+        // Criando java.informacoes.produtos
         Produto p1 = new Produto("Arroz", 5, 20.0f);
         Produto p2 = new Produto("Feijão", 3, 15.5f);
         Produto p3 = new Produto("Macarrão", 2, 8.0f);
 
-        // Associando cálculo aos produtos
+        // Associando cálculo aos java.informacoes.produtos
         p1 = addCalculo(p1);
         p2 = addCalculo(p2);
         p3 = addCalculo(p3);
@@ -23,7 +23,7 @@ public class Main {
         lista.add(p2);
         lista.add(p3);
 
-        // Mostrando produtos (CSV)
+        // Mostrando java.informacoes.produtos (CSV)
         System.out.println("Produtos no formato CSV:");
         for (Produto produto : lista.informacoes) {
             System.out.println(produto.toString());
