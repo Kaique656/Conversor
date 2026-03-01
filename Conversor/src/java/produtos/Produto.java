@@ -1,6 +1,6 @@
-package java.informacoes.produtos;
+package java.produtos;
 
-import java.informacoes.contas.Calculos;
+import java.contas.Calculos;
 
 public class Produto {
     private String nome; private int quantidade;

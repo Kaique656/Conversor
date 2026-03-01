@@ -1,4 +1,4 @@
-package java.informacoes.produtos;
+package java.produtos;
 
 import java.util.ArrayList;
 import java.util.List;

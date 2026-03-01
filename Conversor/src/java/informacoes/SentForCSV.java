@@ -1,7 +1,7 @@
 package java.informacoes;
 
-import java.informacoes.produtos.Produto;
-import java.informacoes.produtos.SaveThatInformation;
+import java.produtos.Produto;
+import java.produtos.SaveThatInformation;
 
 import java.io.*;
 

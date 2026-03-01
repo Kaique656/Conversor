@@ -1,8 +1,8 @@
 package main;
 
-import java.informacoes.produtos.Produto;
-import java.informacoes.produtos.SaveThatInformation;
-import java.informacoes.contas.Calculos;
+import java.produtos.Produto;
+import java.produtos.SaveThatInformation;
+import java.contas.Calculos;
 
 public class Main {
     public static void main(String[] args) {
