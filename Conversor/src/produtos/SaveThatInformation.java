@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SaveThatInformation {
-    public List<Produto> informacoes; Produto produto;
+    public static List<Produto> informacoes; Produto produto;
 
     public SaveThatInformation() {
         this.informacoes = new ArrayList<>();
@@ -18,6 +18,10 @@ public class SaveThatInformation {
         } catch (Exception e) {
             throw  new IllegalArgumentException("O produto não exista para ser apagado");
         }
+    }
+
+    public static List<Produto> getInformacoes() {
+        return informacoes;
     }
 
     public String search (Produto p) {
