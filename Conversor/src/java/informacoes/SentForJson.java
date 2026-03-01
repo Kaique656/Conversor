@@ -1,4 +1,4 @@
-package informacoes;
+package java.informacoes;
 
 import java.io.File;
 
