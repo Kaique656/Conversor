@@ -6,7 +6,7 @@ import produtos.SaveThatInformation;
 import java.io.*;
 
 public class SentForCSV {
-    public static final String arquiovocsv = "contato.csv" ;
+    public static final String arquiovocsv = "arquivo.csv";
     SaveThatInformation csv = new SaveThatInformation();
     File ark= new File(arquiovocsv);
 
